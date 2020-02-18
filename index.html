@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- HTML
+
+    Hypertext
+    texto que contém links para outros documentos.
+
+    Markup 
+    texto que conterá marcações
+    <tags>
+
+    Language
+    Para omunicar de certa maneira. sintaxe expecifica para escrita
+
+-->
+
+<html>
+    <head>
+        <!--configurações da minha pagina-->
+        <title>Doação de Sangue, Doe vida !</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">       
+    </head>
+        
+    <body>
+        <!-- Aqui vai conter todo o conteudo para o usuário dentro da pagina -->
+        <header>
+            <img class="logo" src="logo.png" alt="Imagem de DOE">
+            <h2>A sua doação importa</h2>
+            <p>Até 3 vidas com uma simples doação</p>        
+            <p>Mais de 38 mil doações são necessárias todos os dias</p>
+            <p>Apenas 1,9% da população brasileira, doa sangue</p>
+    
+            <button>Quero Ajudar</button>
+        </header>
+
+       <section class="form hide">
+           <h2>Entre na lista de Doadores</h2>
+            <form action="/">
+                <input 
+                    type="text" 
+                    name="name"
+                    placeholder="Nome Completo">
+
+                    <input 
+                    type="text" 
+                    name="email"
+                    placeholder="E-mail">
+
+                    <input 
+                    type="text" 
+                    name="blood"
+                    placeholder="Tipo Sanguineo">
+
+                    <button>Quero Ajudar</button>
+            </form>
+       </section>
+
+        <main>
+            <h2>Últimos <span>doadores</span></h2>
+
+            <section class="donors">
+                <div class="donor"> 
+                    <div class="blood">AB+</div>
+                    <p>Diego Charles</p>
+                </div>
+           
+                <div class="donor"> 
+                    <div class="blood">A+</div>
+                    <p>Marilia Charles</p>
+                </div>
+
+                <div class="donor"> 
+                    <div class="blood">O+</div>
+                    <p>Antonio Banespa</p>
+                </div>
+
+                <div class="donor"> 
+                    <div class="blood">O-</div>
+                    <p>Coton Rafael</p>
+                </div>
+            </section>
+
+        </main>
+        <footer> Com ❤ Rocketseat </footer>
+
+        <script src="scripts.js"></script>
+    </body>
+
+
+</html>
