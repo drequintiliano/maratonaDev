@@ -1,5 +1,5 @@
 # maratonaDev
  Maratona de desenvolvimento da Rocketseat, construindo uma aplicação do zero usando as tecnologias:
  
- FRONT END: html, css, js
- BACK END: Node, Express, PostgreSQL 
+ FRONT END: HTML, CSS, JS
+ BACK END: Nodejs, Express, PostgreSQL 
